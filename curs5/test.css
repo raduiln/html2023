@@ -1,0 +1,21 @@
+div{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border: 2px solid red;
+    border-radius: 15px;
+    float: left;
+    overflow: hidden;
+    border: 10px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 15px;
+    padding: 20px;
+}
+
+
+#div2{
+    
+
+
+}
