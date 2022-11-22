@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border: 2px red solid;
+            border-collapse:collapse;
+        }
+        table tr td, table tr th{
+            border: 1px blue solid; 
+            padding: 10px; 
+        }
+        table tr:nth-child(2n){
+            color: brown;
+            background-color: burlywood;
+
+        }
+        table tr:nth-last-child(2n+1){
+            background-color: rgb(26, 26, 149);
+            color: #ffff;
+        }
+        table tr:hover {
+            background-color: blue;
+            color: green;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Primul meu tabel</h1>
+<table>
+    <tr>
+        <th>Nume</th>
+        <th>Prenume</th>
+        <th>Tel</th>
+        <th>Email</th>
+    </tr>
+    <tr>
+        <td>Popescu</td>
+        <td>Ion</td>
+        <td>0757314256</td>
+        <td>popescu@demo.ro</td>
+    </tr>
+    <tr>
+        <td>Vasile</td>
+        <td>Gigi</td>
+        <td>0753464789</td>
+        <td>gigi@demo.com</td>
+    </tr>
+    <tr>
+        <td>Ionescu</td>
+        <td>Gigel</td>
+        <td>0757314675</td>
+        <td>ionescu@demo.ro</td>
+    </tr>
+    <tr>
+        <td>costescu</td>
+        <td>George</td>
+        <td>07534643536</td>
+        <td>george@demo.com</td>
+    </tr>
+   
+</table>
+</table>
+</body>
+</html>
