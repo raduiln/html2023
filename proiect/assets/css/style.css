@@ -295,6 +295,51 @@ ul#menu li a:hover
   
   .sidebar ul
   { margin: 0;} 
+
+  /* Despre noi*/
+  div {
+    display:block;
+}
+.demo  .container {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding: 10% 11%;
+}
+
+.demo .row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    padding: 10% 15%;
+
+}
+
+.demo .col:nth-child(1) {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 12px;
+}
+
+.demo .col {
+    width: 100%;
+    padding: 17% 10%;
+    
+}
+.demo .bg-1 {
+    background-color: rgb(154, 183, 95);
+}
+
+.demo .bg-2 {
+    background-color: rgb(54, 167, 129);
+}
+.demo .bg-3 {
+    background-color: rgb(83, 208, 83);
+}
+
   
 
   /* FOOTER */
