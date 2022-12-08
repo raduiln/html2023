@@ -1,0 +1,39 @@
+div{
+width: 100%;
+max-width: 800px;
+height: 600px;
+}
+div img{
+    width: 100%;
+    max-width: 800px;
+}
+@media (max-width:576px) {
+/* mobil */
+.laptop, .tableta{
+    display: none;
+}
+.mobil{
+    background-image: url("../curs5/image/tel.jpeg");
+    background-size: cover;
+}
+}
+@media (min-width:577px) and (max-width:768px) {
+    /* tableta */
+    .laptop, .mobil{
+        display: none;
+    }
+    .tableta{
+        background-image: url("../curs5/image/tableta.jpeg");
+        background-size: cover;
+    }
+}
+@media (min-width:769px) {
+    /* laptop */
+    .mobil, .tableta{
+        display: none;
+    }
+    .laptop{
+        background-image: url("../curs5/image/laptop.jpeg");
+        background-size: cover;
+    }
+}
